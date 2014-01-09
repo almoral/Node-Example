@@ -1,0 +1,29 @@
+{
+  "name": "node-example",
+  "version": "0.0.0",
+  "description": "Example of node heroku app",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/almoral/Node-Example.git"
+  },
+  "keywords": [
+    "node",
+    "example"
+  ],
+  "author": "almoral",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/almoral/Node-Example/issues"
+  },
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.7"
+  },
+  "engines":{
+    "node": "0.10.x"
+  }
+}
